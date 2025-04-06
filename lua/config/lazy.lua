@@ -27,7 +27,10 @@ vim.g.maplocalleader = "\\"
 -- Setup lazy.nvim
 require("lazy").setup({
   spec = {
-      { 'kepano/flexoki-neovim', name = 'flexoki', config = function() vim.cmd.colorscheme("lunaperche") end}
+      { 'vague2k/vague.nvim',config = function() vim.cmd.colorscheme("vague")   end},
+    { import = "config.plugins"},
+    {"nvim-treesitter/nvim-treesitter"},
+    {import = "config.treesitter"},
 
-  },
+  } 
 })

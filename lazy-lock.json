@@ -1,4 +1,6 @@
 {
-  "flexoki-neovim": { "branch": "main", "commit": "975654bce67514114db89373539621cff42befb5" },
-  "lazy.nvim": { "branch": "main", "commit": "6c3bda4aca61a13a9c63f1c1d1b16b9d3be90d7a" }
+  "lazy.nvim": { "branch": "main", "commit": "7967abe55752aa90532e6bb4bd4663fe27a264cb" },
+  "mini.nvim": { "branch": "main", "commit": "d570e0b01aabfe949c097983ed6386af60db32ed" },
+  "nvim-treesitter": { "branch": "master", "commit": "364b86ec8ea88e4a77ba676b93fb10829d6a9cb3" },
+  "vague.nvim": { "branch": "main", "commit": "982453f671332ce0240a15be5eb223d32f877e06" }
 }

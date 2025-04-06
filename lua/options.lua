@@ -15,4 +15,4 @@ vim.opt.inccommand = "split"
 
 vim.opt.termguicolors = true
 
-
+vim.g.mapleader = " "
